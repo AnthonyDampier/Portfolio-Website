@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito:wght@200&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav li, a, button, footer li, a, button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header, footer {
+  display: flex;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #24252a;
+}
+
+header {
+  justify-content: flex-end;
+}
+
+footer {
+  justify-content: center;
+}
+
+a#logo {
+  font-weight: BOLD;
+  color: #edf0f1;
+  margin-right: auto;
+  font-size: larger;
+}
+
+nav ul {
+  list-style: none;
+}
+
+header nav li, footer li {
+  display: inline-block;
+  padding: 0px 20px
+}
+
+nav li a {
+  transition: all 0.3s ease 0s;
+}
+
+nav li a:hover {
+  color: orange;
+}
+
+button {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: rgb(125, 125, 125);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: orange;
+}
+
+div#body {
+  background-color: #edf0f1;
+
+}
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
