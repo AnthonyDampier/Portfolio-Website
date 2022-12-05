@@ -1,0 +1,45 @@
+#portfolio-background {
+    background-color: black;
+}
+
+#portfolio {
+    height: 600px;
+    max-width: 95%;
+    display: flex;
+    justify-content: center;
+    vertical-align: auto;
+    padding: 100px;
+}
+
+
+.block{
+    width: 400px;
+    height: 300px;
+    padding: 5px;
+    border: 1px solid black;
+    opacity: 0.6;
+    cursor: pointer;
+    border-radius: 1rem;
+    background-color: white;
+    transform: scale(1, 1);
+}
+
+.condensed{
+    cursor: pointer;
+    border-radius: 1rem;
+    transform: scale(1, 1);
+}
+
+.expanded {
+    transform: scale(1.75, 1.5);
+    opacity: 1;
+    transition: transform 0.7s;
+    z-index: 1;
+}
+
+#portfolio div p {
+    font-size: xx-small;
+    color:rgb(37, 37, 37);
+    margin-left: 0;
+    bottom: 0px;
+}
