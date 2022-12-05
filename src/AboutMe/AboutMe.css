@@ -1,18 +1,26 @@
 #about-me-background {
     background-color: black;
+    display: flex;
+    justify-content: space-between;
 }
 
 .about-me {
     display: flex;
-    padding: 20px;
+    padding-top: 50px;
     max-width: 95vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 img {
     height: 250px;
     border-radius: 1rem;
+    margin-right: 20vw;
 }
-p{
+.about-me div p{
     padding: 20px;
     color: #edf0f1;
+    width: 800px;
 }

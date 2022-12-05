@@ -9,18 +9,19 @@
     justify-content: center;
     vertical-align: auto;
     padding: 100px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
 .block{
     width: 400px;
-    height: 300px;
+    height: 280px;
     padding: 5px;
     border: 1px solid black;
     opacity: 0.6;
     cursor: pointer;
     border-radius: 1rem;
-    background-color: white;
     transform: scale(1, 1);
 }
 
@@ -39,16 +40,45 @@
 
 #portfolio div p {
     font-size: xx-small;
-    color:rgb(37, 37, 37);
-    margin-left: 0;
-    bottom: 0px;
+    color: #edf0f1;
+    position: relative;
+    bottom: -275px;
+    text-align: center;
 }
 
-#1 {
+#portfolio div.four p {
+    font-size: xx-small;
+    color: #edf0f1;
+    position: relative;
+    bottom: -260px;
+    text-align: center;
+}
+
+
+.one.block{
     background-image: url(../Images/FeedbackProject.png);
+    background-size: cover;
+    background-position: center;
 }
 
-#2 {
+.two.block {
     background-image: url(../Images/PrimePizza.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.three.block {
+    background-image: url(../Images/CactusShooterMayhem.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.four.block {
+    background-color: orange;
+    background-image: url(../Images/ComingSoonImage.jpg);
+    background-size: cover;
+    background-position: center;
 }
 

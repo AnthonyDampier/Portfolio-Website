@@ -47,34 +47,34 @@ function Portfolio(){
         <div id='portfolio-background'>
             <div id='portfolio'>
                 <div
-                    className={expandOne ? 'block expanded' : 'block condensed'}
+                    className={expandOne ? 'one block expanded' : 'one block condensed'}
                     id='1' 
                     onClick={(event) => expandClick(event.target.id)}
                     >
-                    <h4>Feedback Quiz</h4>
+                    {/* <h4>Feedback Quiz</h4> */}
                     <p>React, JavaScript, HTML, CSS, SQL, Node.js, MUI Icons, Postgres, Postman, et cetera</p>
 
                 </div>
                 <div  
-                    className={expandTwo ? 'block expanded' : 'block condensed'}
+                    className={expandTwo ? 'two block expanded' : 'two block condensed'}
                     id='2' 
                     onClick={(event) => expandClick(event.target.id)}>
-                    <h4>Prime Pizza</h4>
+                    {/* <h4>Prime Pizza</h4> */}
                     <p>React, JavaScript, HTML, CSS, SQL, Node.js, MUI Icons, Postgres, Postico, & Git</p>
                 </div>
                 <div  
-                    className={expandThree ? 'block expanded' : 'block condensed'}
+                    className={expandThree ? 'three block expanded' : 'three block condensed'}
                     id='3'
                     onClick={(event) => expandClick(event.target.id)}>
-                    <h4>Gamify</h4>
-                    <p>React, JavaScript, HTML, CSS, User Authentication, & Twilio API</p>
+                    <p>HTML, CSS, & JavaScript</p>
                 </div>
                 <div  
-                    className={expandFour ? 'block expanded' : 'block condensed'}
+                    className={expandFour ? 'four block expanded' : 'four block condensed'}
                     id='4' 
                     onClick={(event) => expandClick(event.target.id)}>
-                    <h4>Client</h4>
-                    <p>React, JavaScript, HTML, CSS, SQL, Node.js, MUI Icons, Postgres, Postman, et cetera</p>
+                    {/* <h4>EVIL CATCUS SHOOTING MAYHEM</h4> */}
+                    <h4>Gamify: Coming soon</h4>
+                    <p>React, JavaScript, HTML, CSS, User Authentication, & Twilio API</p>
                 </div>
             </div>
         </div>
